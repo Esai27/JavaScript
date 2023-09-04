@@ -13,3 +13,15 @@ else{
      console.log("Odd Number")
 }
 
+//Find the person is eligible for voting
+
+var name = prompt("Enter your name")
+var nationality = prompt("Enter your Nationalaity")
+var age = prompt ("Enter your Age")
+if(nationality=="Indian" && age > 18)
+{
+    alert("Hai " + name + " you are eligible to vote in this election")
+}
+else{
+    alert("Hai " + name + " You are not eligible to vote in this election " )
+}
