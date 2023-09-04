@@ -13,3 +13,5 @@ while(i<=name.length){
     console.log(name[i])
     i++
 }
+
+//finding the divisor
