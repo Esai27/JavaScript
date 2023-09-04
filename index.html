@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo JS</title>
-    <script type="text/javascript" src="demo2.js"></script>
 </head>
 <body>
-    
+    <h1>Print the number divisable by 2</h1>
+    <script> 
+        num = 1
+        while(num<=100){
+        if(num%2==0){
+            document.write(num + '<br>');
+        }
+        num++
+    }
+    </script>
+<h1>Print the number divisable by 3</h1>
+<script>
+ num = 1
+        while(num<=100){
+        if(num%3==0){
+            document.write(num + '<br>');
+        }
+        num++
+    }
+</script>
+<h1>Print the number divisable by 2 and 3</h1>
+<script>
+    num = 1
+           while(num<=100){
+           if((num%2==0)&&(num%3==0)){
+               document.write(num + '<br>');
+           }
+           num++
+       }
+   </script>
+   <h1>Print the number divisable by 2 or 3</h1>
+   <script>
+       num = 1
+              while(num<=100){
+              if((num%2==0)||(num%3==0)){
+                  document.write(num + '<br>');
+              }
+              num++
+          }
+      </script>
 </body>
 </html>
